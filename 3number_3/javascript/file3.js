@@ -1,10 +1,10 @@
 
-const threeDigitNumber = parseInt(
+const threeDigitNumber = 
     prompt("Enter the three digit number"),
 );
-    let number = threeDigitNumber + " ";
+    // let number = threeDigitNumber + " ";
     
-    if (number[0] == number[1] || number[0] == number[2] || number[1] == number[2])
+    if (threeDigitNumber[0] == threeDigitNumber[1] || threeDigitNumber[0] == threeDigitNumber[2] || threeDigitNumber[1] == threeDigitNumber[2])
 {
     console.log("numbers are repeated");
 } else {
